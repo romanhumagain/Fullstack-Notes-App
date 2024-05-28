@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import notes from '../assets/data'
 import ListItem from '../components/ListItem'
 
-
- 
 function NotesListPage() {
   const [notes, setNotes] = useState([])
 
@@ -16,11 +13,8 @@ function NotesListPage() {
 
     let response = await fetch(URL);
     let data = await response.json();
-    console.log("Fetched Data Are:- ", data)
-
     setNotes(data)
   }
-
   return (
     <div className='container'>
       <div className="notes-lists">

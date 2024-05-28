@@ -26,7 +26,7 @@ function App() {
               element : <NotesListPage/>
             },
             {
-              path: "/note/:note_id",
+              path: "/note/:slug",
               element :<NotePage/>
             }
           ]

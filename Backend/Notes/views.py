@@ -9,7 +9,7 @@ from .models import Note
 @api_view(['GET'])
 def getNotes(request):
   if request.method == "GET":
-    notes_obj = Note.objects.all()
+    notes_obj = Note.objects.all().order_by("-id")
     serailizer = NoteSerializer(notes_obj, many = True)
     return Response(serailizer.data)
   

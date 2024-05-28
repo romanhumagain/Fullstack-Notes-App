@@ -12,6 +12,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+body{
+  background-color: #32363c;
+}
 
 .App-header {
   background-color: #282c34;
@@ -36,13 +39,11 @@
     transform: rotate(360deg);
   }
 }
-body{
-  /* background-color: rgb(86, 86, 86); */
-}
+
 
 a{
   text-decoration: none;
-  color: rgb(218, 89, 53);
+  color: rgb(250, 245, 244);
 }
 
 .header-title{
@@ -50,7 +51,8 @@ a{
   margin-top: 50px;
   margin-bottom: 20px;
   font-weight: bold;
-  font-size: 40px
+  font-size: 40px;
+  color:white
 }
 .card{
   border-radius: 20px;
