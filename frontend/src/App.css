@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  /* background-color: rgb(86, 86, 86); */
+}
+
+a{
+  text-decoration: none;
+  color: rgb(218, 89, 53);
+}
+
+.header-title{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 40px
+}
+.card{
+  border-radius: 20px;
+  border: 0.001rem solid white;
+}
+.updated_date{
+  justify-content: end;
+  display: flex;
+}
+
+.note-details{
+  justify-content: center;
+  display: flex;
+  /* align-items: center; */
+  height: 8rem;
+  /* width: 50rem; */
+  background-color:#282c34;
+  color:white;
+}
+
+.note-area {
+  background-color: transparent;
+  border: none;
+  color: white;
+  resize: none;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+
+.note-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-opt{
+  border-radius: 20px;
+  margin: 4px;
+  font-size: x-small;
+}
+
+.container h2 svg{
+    color: chocolate;
+    width: 20px;
+    margin-right: 8px;
+}
+.note-body{
+  font-size: 25px;
+}
+
