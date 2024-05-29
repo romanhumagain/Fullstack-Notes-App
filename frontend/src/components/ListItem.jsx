@@ -8,9 +8,10 @@ function ListItem(props) {
         <div className="card bg-dark text-light notes-list">
           <div className="card-body">
             <Link to={`/note/${props.note.slug}`}>
-              <h3 className='note-body'>{props.note.body}</h3>
+              <h3 className='note-body'>{props.note.title}</h3>
             </Link>
             <p className='updated_date'>{props.note.created_date}</p>
+
           </div>
         </div>
       </div>

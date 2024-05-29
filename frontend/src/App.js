@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 
 import NotePage from './pages/NotePage';
+import AddNote from './pages/AddNote';
 
 
 function App() {
@@ -28,6 +29,10 @@ function App() {
             {
               path: "/note/:slug",
               element :<NotePage/>
+            },
+            {
+              path:"/note/new/",
+              element:<AddNote/>
             }
           ]
       }

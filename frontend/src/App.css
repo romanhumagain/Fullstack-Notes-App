@@ -43,7 +43,7 @@ body{
 
 a{
   text-decoration: none;
-  color: rgb(250, 245, 244);
+  color: rgb(245, 111, 111);
 }
 
 .header-title{
@@ -67,7 +67,7 @@ a{
   justify-content: center;
   display: flex;
   /* align-items: center; */
-  height: 8rem;
+  height: 10rem;
   /* width: 50rem; */
   background-color:#282c34;
   color:white;
@@ -80,6 +80,14 @@ a{
   resize: none;
   width: 100%;
   height: 100%;
+  outline: none;
+}
+.title-input{
+  background-color: transparent;
+  border: none;
+  color: white;
+  resize: none;
+  width: 50%;
   outline: none;
 }
 
@@ -103,3 +111,19 @@ a{
   font-size: 25px;
 }
 
+.add-btn{
+  font-size: 48px;
+  background-color: rgb(241, 94, 65);
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+  float: right;
+  
+}

@@ -1,5 +1,5 @@
 
-let notes = [
+const notes = [
   {
       "id": 1,
       "body": "Todays Agenda- Walk Dog- Feed fish- Play basketball- Eat a salad",

@@ -34,7 +34,7 @@ def fetchNote(request, slug):
 def updateNote(request, slug):
   if request.method == "PUT":
     data = request.data
-    note_obj = Note.objects.get(slug = data['slug'])
+    note_obj = Note.objects.get(slug = slug)
     
     serializer = NoteSerializer(note_obj, data=data)
     if serializer.is_valid():
@@ -45,7 +45,7 @@ def updateNote(request, slug):
   
   if request.method == "PATCH":
     data = request.data
-    note_obj = Note.objects.get(slug = data['slug'])
+    note_obj = Note.objects.get(slug = slug)
     
     serializer = NoteSerializer(note_obj, data=data, partial = True)
     if serializer.is_valid():
