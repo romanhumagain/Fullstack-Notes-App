@@ -8,8 +8,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-
-
 function NotePage() {
   const params = useParams()
   const navigate = useNavigate()
@@ -146,5 +144,4 @@ function NotePage() {
     </>
   )
 }
-
 export default NotePage
